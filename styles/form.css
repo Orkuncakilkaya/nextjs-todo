@@ -1,0 +1,15 @@
+.form-control {
+    @apply bg-white rounded border border-gray-400 px-2 py-2 text-sm;
+}
+
+.form-control-sm {
+    @apply px-1 py-1;
+}
+
+.form-row {
+    @apply grid grid-cols-2 gap-1;
+}
+
+.form-layout-vertical {
+    @apply grid grid-cols-1 gap-2;
+}
